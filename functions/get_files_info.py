@@ -17,7 +17,7 @@ def get_files_info(working_directory: str, directory: str = ".") -> str:
             return output_message
         
         if not os.path.isdir(target_dir):
-            return f'Error: "{directory}" is not a directory'
+            return f"Error: \"{directory}\" is not a directory"
 
         if target_dir_valid:
 
